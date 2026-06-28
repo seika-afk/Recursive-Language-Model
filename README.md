@@ -6,3 +6,9 @@ RLMS are inference technique
 - RLM Agent can return response
   -  Auto regressively generated answers
   - construct answers into a python var
+
+For Ollama:
+```
+export RLM_MODEL_BASE_URL=http://localhost:11434/v1
+export RLM_MODEL_API_KEY=ollama
+```
